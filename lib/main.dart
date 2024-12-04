@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:cleanhome_happyhome/household_list_page.dart';
+import 'package:cleanhome_happyhome/views/household_list_page.dart';
+import 'package:cleanhome_happyhome/views/calendar.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,8 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-
-      home: HouseholdListPage(),
+      // home: HouseholdListPage(),
+      home:CalendarScreen(),
     );
   }
 }
