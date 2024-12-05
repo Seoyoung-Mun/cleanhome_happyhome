@@ -1,6 +1,7 @@
+import 'package:cleanhome_happyhome/widgets/custom_icons_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
-import '../widgets/custom_icons_icons.dart';
+
 
 
 class CalendarScreen extends StatefulWidget {
@@ -46,7 +47,8 @@ class _CalendarScreenState extends State<CalendarScreen> {
 
                   child: Row(
                     children: [
-                      Icon(CustomIcons.cleaning_room_woman),
+                      Icon(CustomIcons.cleaning_room_woman,
+                      size:20),
                       Text(
                         '내 일정',
                         style: TextStyle(

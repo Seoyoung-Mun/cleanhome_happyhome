@@ -1,3 +1,5 @@
+import 'package:cleanhome_happyhome/components/bottom_navigation_bar.dart';
+import 'package:cleanhome_happyhome/components/bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import 'package:cleanhome_happyhome/views/household_list_page.dart';
@@ -15,7 +17,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 
       // home: HouseholdListPage(),
-      home:CalendarScreen(),
+      // home:CalendarScreen(),
+      home: NavigationBarExample(),
     );
   }
 }
